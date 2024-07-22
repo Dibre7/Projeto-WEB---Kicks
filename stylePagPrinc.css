@@ -59,6 +59,7 @@ header {
     content: '';
 }
 
+/*Principal*/
 .hero {
     position: relative;
     /* width: 1440px; */
@@ -175,7 +176,7 @@ footer {
 
 .footer-logo img {
     width: 168px;
-    height: 157px;
+    height: 156px;
 }
 
 .footer-text {

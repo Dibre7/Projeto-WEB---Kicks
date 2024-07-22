@@ -59,10 +59,51 @@ header {
     content: '';
 }
 
+/* Sobre nós */
+.sobrenos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    padding: 20px;
+}
 
+.sobrenos-content {
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.sobrenos-text {
+    flex: 1;
+    padding: 20px;
+}
 
+.sobrenos-text h1 {
+    font-size: 64px;
+    color: #000;
+    margin: 20px 0;
+}
 
+.sobrenos-text h2 {
+    font-size: 24px;
+    color: #C11F26;
+    margin: 20px 0;
+}
+
+.sobrenos-text p {
+    font-size: 20px;
+    color: #000;
+    margin: 20px 0;
+}
+
+.familia-image img {
+    max-width: 100%;
+    width: 620px;
+    height: 680px;
+    border-radius: 10px;
+    margin: 10px;
+}
 
 
 
@@ -80,7 +121,7 @@ footer {
 
 .footer-logo img {
     width: 168px;
-    height: 157px;
+    height: 156px;
 }
 
 .footer-text {
