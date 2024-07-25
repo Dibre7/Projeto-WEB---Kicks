@@ -59,7 +59,91 @@ header {
     content: '';
 }
 
-/* Sobre nós */
+
+
+
+.sobrenos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.sobrenos-content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sobrenos-text, .familia-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.sobrenos-text h1, .sobrenos-text h2, .sobrenos-text p {
+    margin: 10px 0;
+}
+
+.familia-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Media Query para telas menores */
+@media (max-width: 768px) {
+    .sobrenos-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobrenos-text, .familia-image {
+        padding: 10px;
+    }
+
+    .sobrenos-text {
+        text-align: center;
+    }
+
+    .familia-image img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Media Query para telas ainda menores */
+@media (max-width: 480px) {
+    .sobrenos-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .sobrenos-text h2 {
+        font-size: 1.25rem;
+    }
+
+    .sobrenos-text p {
+        font-size: 1rem;
+    }
+
+    .familia-image img {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/* 
 .sobrenos-section {
     display: flex;
     justify-content: center;
@@ -103,7 +187,7 @@ header {
     height: 680px;
     border-radius: 10px;
     margin: 10px;
-}
+} */
 
 
 
